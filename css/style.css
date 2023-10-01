@@ -104,11 +104,11 @@ div.operation-button{
     .upper-div{
         display: inline-flex;
         padding-right: 20vh;
-        margin-left: 10vh;
+        margin-left: 15vh;
     }
     .lower-div{
         display: inline-flex;
-        margin-left: 10vh;
+        margin-left: 15vh;
 
         padding-right: 20vh;
     }
@@ -116,19 +116,20 @@ div.operation-button{
 @media (min-width:320px) and (max-width:480px){
     .container-fluid{
         position: relative;
-        left:50%;
-        top: 20vh;
+        left:30%;
+        /* top: 20vh; */
         right: 50%;
         width: 30vh;
 
     }
     .upper-div{
         display: inline-flex;
-        padding-right: 20vh;
+        padding-right: 22vh;
+        margin-left: 25vh;
     }
     .lower-div{
         display: inline-flex;
-
-        padding-right: 20vh;
+        margin-left: 25vh;
+        padding-right: 22vh;
     }
 }
