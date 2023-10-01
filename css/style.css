@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(164, 163, 163, 0.893);
+}
+h1{
+    text-align: center;
+}
+button {
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+input[type="text"] {
+    width: 41vh;
+    padding: 2vh;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: none;
+    height: 8vh;
+}
+
+input[type="text"]:focus {
+    outline: none; 
+    border: none; 
+}
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    min-width: 10%;
+    /* border: 1px black solid; */
+    height: 50vh;
+}
+.calculating-area{
+    background-color: white;
+    color: black;
+    font-family: monospace;
+    /* border: 1px black solid; */
+    width: 45vh;
+    height: 12vh;
+}
+.all-clear{
+    background-color: rgba(0, 128, 107, 0.747);
+    color: white;
+    width: 15vh;
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.all-clear button{
+    background-color: transparent;
+    text-align: center;
+}
+.upper-div{
+    display: inline-flex;
+}
+div.numeric-button{
+    display: grid;
+    grid-template-columns: 15vh 15vh 15vh;
+    height: 50vh;
+    background-color: black;
+    grid-gap: 0 0 ;
+}
+div.operation-button{
+    display: grid;
+    grid-template-columns: 15vh;
+    height: 50vh;
+    background-color: gray;
+    grid-gap: 0 0 ;
+}
+.operation-button button{
+    background-color: gray;
+}
+.lower-div{
+    display: inline-flex;
+}
