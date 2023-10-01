@@ -34,7 +34,12 @@ input[type="text"]:focus {
     justify-content: center;
     align-items: center;
     margin-top: 20vh;
-    min-width: 10%;
+    min-width: 5%;
+    /* width: 80vh; */
+    /* margin-right: 5vh;
+    margin-left: 5vh;
+    position: relative;
+    left:35%; */
     /* border: 1px black solid; */
     height: 50vh;
 }
@@ -62,6 +67,8 @@ input[type="text"]:focus {
 }
 .upper-div{
     display: inline-flex;
+    padding-right: 20vh;
+    margin-left: 20vh;
 }
 div.numeric-button{
     display: grid;
@@ -82,4 +89,46 @@ div.operation-button{
 }
 .lower-div{
     display: inline-flex;
+    padding-right: 20vh;
+    margin-left: 20vh;
+}
+@media (max-width:320px) {
+    .container-fluid{
+        position: relative;
+        left:60%;
+        top: 20vh;
+        /* right: 50%; */
+        width: 30vh;
+
+    }
+    .upper-div{
+        display: inline-flex;
+        padding-right: 20vh;
+        margin-left: 10vh;
+    }
+    .lower-div{
+        display: inline-flex;
+        margin-left: 10vh;
+
+        padding-right: 20vh;
+    }
+}
+@media (min-width:320px) and (max-width:480px){
+    .container-fluid{
+        position: relative;
+        left:50%;
+        top: 20vh;
+        right: 50%;
+        width: 30vh;
+
+    }
+    .upper-div{
+        display: inline-flex;
+        padding-right: 20vh;
+    }
+    .lower-div{
+        display: inline-flex;
+
+        padding-right: 20vh;
+    }
 }
